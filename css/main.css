@@ -50,6 +50,7 @@ section {
 .space-ship {
 	width: 300px;
 	opacity: 0;
+	transform: translateY(100px);
 }
 
 .orange-section {
