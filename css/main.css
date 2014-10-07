@@ -46,3 +46,36 @@ section {
 		opacity: 1;
 	}
 }
+
+.space-ship {
+	width: 300px;
+	opacity: 0;
+}
+
+.orange-section {
+	background: transparent no-repeat center top;
+	background-color: #f6a500;
+
+}
+
+.js-shuttle-fade {
+	/* Dont forget the other prefixes! */
+	-webkit-animation: shuttle-fade 1s linear forwards;
+	/*
+		Animation-fill-mode: forwards;
+	*/
+}
+
+/* Dont forget the other prefixes! */
+@-webkit-keyframes shuttle-fade {
+	0% {
+		opacity: 0;
+		transform: translateY(100px);
+	}
+
+	100%{
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
